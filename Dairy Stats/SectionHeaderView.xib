@@ -31,12 +31,13 @@
                 </label>
             </subviews>
             <constraints>
-                <constraint firstItem="aNw-iB-ROZ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="topMargin" id="C3t-lc-LID"/>
+                <constraint firstAttribute="topMargin" secondItem="aNw-iB-ROZ" secondAttribute="top" id="C3t-lc-LID"/>
                 <constraint firstItem="PP6-gs-ilv" firstAttribute="baseline" secondItem="aNw-iB-ROZ" secondAttribute="firstBaseline" constant="11.5" symbolType="layoutAnchor" id="M0b-ND-paE"/>
                 <constraint firstItem="aNw-iB-ROZ" firstAttribute="trailing" secondItem="PP6-gs-ilv" secondAttribute="leadingMargin" constant="-20" id="OrG-6F-au2"/>
                 <constraint firstItem="aNw-iB-ROZ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leadingMargin" id="UeO-wj-NEl"/>
-                <constraint firstItem="aNw-iB-ROZ" firstAttribute="baseline" secondItem="iN0-l3-epB" secondAttribute="bottomMargin" id="ev6-dc-59F"/>
+                <constraint firstAttribute="bottomMargin" relation="greaterThanOrEqual" secondItem="PP6-gs-ilv" secondAttribute="bottom" id="j8O-v8-fKr"/>
                 <constraint firstAttribute="trailingMargin" secondItem="PP6-gs-ilv" secondAttribute="trailing" id="s7l-uy-bBG"/>
+                <constraint firstAttribute="bottomMargin" secondItem="aNw-iB-ROZ" secondAttribute="baseline" id="vdK-w5-rYv"/>
             </constraints>
             <nil key="simulatedTopBarMetrics"/>
             <nil key="simulatedBottomBarMetrics"/>
